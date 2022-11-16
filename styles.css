@@ -1,15 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-#main {
-  background-color: blue;
+
+:root {
+  --fz-small:13px;
+  --fz-medium:20px;
+  --fz-large:30px;
+  --font-inter:'Inter', sans-serif;
+  --dark-navy: #020c1b;;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--dark-navy);
+  height:100vh;
+  color:var(--lightest-slate);
+  font-family: var(--font-inter);
 }
 
 #title {
-  color:#ffffff;
   text-align:center;
+  font-size: var(--fz-large);
 }
 
 #sub-title{
-  color:#00FFFF;
   text-align:center;
+  font-size: var(--fz-medium);
+}
+img {
+  position:relative;
+  left: 100px;
+}
+
+h2 {
+  text-align:justify;
+  font-size: var(--fz-medium);
+}
+
+ul li {
+  text-align:center;
+  font-size: var(--fz-small);
+  text-align:justify;
+}
+
+.paragraphs{
+  width:84%;
+  position:relative;
+  left:70px;
+}
+
+p {
+  width:85%;
+  position:relative;
+  left:90px;
+  font-size: var(--fz-small);
+  text-align: justify;
 }
