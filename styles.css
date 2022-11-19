@@ -19,9 +19,20 @@ body {
   font-family: var(--font-inter);
 }
 
+#sides{
+ background-color: rgba(0,0,0,0.2);
+ height: 500px;
+ width:1000px;
+ margin:auto;
+ border-radius: 20px;
+}
+
+ 
 #title {
   text-align:center;
-  font-size: var(--fz-large);
+  font-size: 50px;
+  color:#ffff;
+  font-family:'Dancing Script', cursive;
 }
 
 #sub-title{
@@ -30,27 +41,56 @@ body {
 }
 img {
   display:block;
-  margin:auto;
   width:500px;
+  float: right;
+  height: 400px;
+  position:relative;
+  top:50px;
+  right:40px;
+  border-radius: 20px;
 }
+#left-side {
+  float:left;
+  position:absolute;
+  left:150px;
+  top:180px;
+  background-color: #bc986a;
+  border-radius: 20px;
+  width:400px;
+  height:300px;
+  
+  font-family:'Rubik Distressed', cursive;
+}
+
+#left-side p {
+  position:relative;
+  color:#020c1b;
+  font-size: 50px;
+  left:20px;
+  text-shadow: white;
+
+}
+
 #img-caption{
   font-style:italic;
   font-size:9px;
   text-align: center;
+  
 }
 
 .paragraphs{
   background-color:aliceblue;
-  width:700px;
-  height:750px;
+  width:1000px;
+  height:680px;
   position:relative;
-  left:270px;
+  left:120px;
+  border-radius: 20px;
 }
 
 .intro {
   position:absolute;
   top:20px;
-  left:25%;
+  left:32%;
   width:600px;
   font-size: 25px;
   color:var(--dark-navy);
@@ -60,9 +100,9 @@ img {
 ul {
   position:absolute;
   top:90px;
-  left:7%;
+  left:9%;
   font-size:12px;
-  width:600px;
+  width:800px;
   text-align: justify;
   padding:6px;
   line-height: 15px;
@@ -72,4 +112,17 @@ ul {
 
 ul li {
   padding:4px;
+}
+
+.footer{
+  background-color: #FFCBA4;
+  width:1000px;
+  margin:auto;
+  height: 150px;
+  position:relative;
+  top:-15px;
+  color: #020c1b;
+  font-family: cursive;
+  font-size:12px;
+  border-radius: 20px;
 }
